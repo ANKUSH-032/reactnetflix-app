@@ -2,6 +2,7 @@ import React from 'react';
 import  Sdata from './Sdata';
 import Card from './Amazon';
 const Amazon = () =>{
+	console.log('test');
     return(
         <Card
                Key={Sdata[3].id} 
